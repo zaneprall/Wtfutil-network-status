@@ -11,10 +11,10 @@ echo -e "OpenVPN:" '\033[32mOnline\033[m'
 else
 echo -e "OpenVPN:" '\033[31mOffline\033[m'
 fi
-if ping -q -c 1 -W 1 monolith.prall.dev >/dev/null; then
-echo -e "Monolith.prall.dev:" '\033[32mOnline\033[m'
+if ping -q -c 1 -W 1 [redacted] >/dev/null; then
+echo -e "[redacted]:" '\033[32mOnline\033[m'
 else
-echo -e "Monolith.prall.dev:" '\033[31mOffline\033[m'
+echo -e "[redacted]:" '\033[31mOffline\033[m'
 fi
 
 if ping -q -c 1 -W 1 8.8.8.8 >/dev/null; then
