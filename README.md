@@ -4,7 +4,7 @@ install via cmdrunner module.
 
     cmdrunner:
       args: [""]
-      cmd: "/home/username/.config/wtf/wtfpingtest.sh"
+      cmd: "/home/username/.config/wtf/wtfpingscript.sh"
       title: "Status"
       enabled: true
       position:
